@@ -13,7 +13,7 @@ notify:
     token: [your token] # you might want to put this secrets.yml
 ```
 
-You might want to generate a ![legacy token](https://api.slack.com/custom-integrations/legacy-tokens) to get started. You could also use an oauth token and register an app, which is the preferred and modern way at slack. The oauth process itself is not supoorted by this component, yet.
+You might want to generate a ![legacy token](https://api.slack.com/custom-integrations/legacy-tokens) to get started. You could also use an oauth token for which you would have to register a slack app, which is the preferred and modern way at slack. The oauth process itself is not supoorted by this component, yet.
 
 # Example automation
 
@@ -56,4 +56,4 @@ Home Assistant ships with a slack notification component, which is very good to 
 
 * be compliant to home assistant coding standard
 * make default emoji configurable
-
+* implement "sign in with slack" to not be dependend on legacy token
