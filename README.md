@@ -13,7 +13,7 @@ notify:
     token: [your token] # you might want to put this secrets.yml
 ```
 
-You might want to generate a ![legacy token](https://api.slack.com/custom-integrations/legacy-tokens) to get started. You could also use an oauth token for which you would have to register a slack app, which is the preferred and modern way at slack. The oauth process itself is not supoorted by this component, yet.
+You might want to generate a ![legacy token](https://api.slack.com/custom-integrations/legacy-tokens) to get started. You could also use an oauth token for which you would have to register a slack app, which is the preferred and modern way at slack. The oauth process itself is not supported by this component yet.
 
 # Example automation
 
@@ -48,9 +48,9 @@ in your `automations.yaml`:
 
 # Comparison to other components
 
-This component is only a simplified variant of the REST notification component, which is much more powerful, but not very convenient for this sepcial usecase, since the profile parameter needs to be passed as urlencoded json.
+This component is only a simplified variant of the REST notification component, which is much more powerful, but not very convenient for this sepcial usecase, since the profile parameter needs to be passed as urlencoded JSON.
 
-Home Assistant ships with a slack notification component, which is very good to post messages into channels. It can't be used, to set the state, though.
+Home Assistant ships with a slack notification component, which is very good to post messages into channels. It can't be used to set the state though.
 
 # To Do
 
