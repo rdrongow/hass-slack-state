@@ -10,7 +10,7 @@ Simply put the component in `~/.homeassistant/custom_components/notify/slack_sta
 notify:
   - name: slack_state
     platform: slack_state
-    token: [your token] # you might want to put this secrets.yml
+    token: [your token] # you might want to put this in secrets.yaml
 ```
 
 You might want to generate a ![legacy token](https://api.slack.com/custom-integrations/legacy-tokens) to get started. You could also use an oauth token for which you would have to register a slack app, which is the preferred and modern way at slack. The oauth process itself is not supported by this component yet.
