@@ -7,9 +7,10 @@ This is a custom component for the awesome ![Home Assistant](https://home-assist
 Simply put the component in `~/.homeassistant/custom_components/notify/slack_state.py`. The component is configured like this in the `configuration.yaml`:
 
 ```
-- name: slack_state
-  platform: slack_state
-  token: [your token] # you might want to put this secrets.yml
+notify:
+  - name: slack_state
+    platform: slack_state
+    token: [your token] # you might want to put this secrets.yml
 ```
 
 You might want to generate a ![legacy token](https://api.slack.com/custom-integrations/legacy-tokens) to get started. You could also use an oauth token and register an app, which is the preferred and modern way at slack. The oauth process itself is not supoorted by this component, yet.
