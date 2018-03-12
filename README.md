@@ -1,4 +1,4 @@
-# Custom Home Assistant component to set a users state in slack
+# Set user states in slack with Home Assistant
 ## Purpose
 
 This is a custom component for the awesome [Home Assistant](https://home-assistant.io). It extends the `BaseNotificationService` to set the user state for a [slack team](https://slack.com). It should be used in combination with automations.
