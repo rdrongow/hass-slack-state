@@ -1,0 +1,10 @@
+{
+  "domain": "slack_state",
+  "name": "Slack state",
+  "documentation": "https://github.com/rdrongow/hass-slack-state",
+  "requirements": [
+    "requests"
+  ],
+  "dependencies": [],
+  "codeowners": []
+}
